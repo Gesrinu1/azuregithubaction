@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: CNE Application
+server:
+  port: 8082
+app:
+  title: Hello Inside Hello World TX DC Application

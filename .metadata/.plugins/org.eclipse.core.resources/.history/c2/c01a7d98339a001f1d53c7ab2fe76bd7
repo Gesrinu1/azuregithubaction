@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: CNE Application
+server:
+  port: 8081
+app:
+	title: 	Hello Inside CNE Application

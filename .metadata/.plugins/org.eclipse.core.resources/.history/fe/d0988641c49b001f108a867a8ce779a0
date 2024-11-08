@@ -1,0 +1,7 @@
+FROM openjdk:17
+
+COPY target/wcc.jar /usr/app/
+
+WORKDIR /usr/app
+
+ENTRYPOINT [ "java", "-jar", "wcc.jar"]
